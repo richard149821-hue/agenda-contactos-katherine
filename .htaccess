@@ -1,0 +1,11 @@
+DirectoryIndex index.php
+Options -Indexes
+<FilesMatch "(?i)\.(sql|md|log|ini|bak|ya?ml|dist|example)$">
+    Require all denied
+</FilesMatch>
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+<FilesMatch "^(Dockerfile|compose\.yaml|package\.json|dev_router\.php)$">
+    Require all denied
+</FilesMatch>

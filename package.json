@@ -1,0 +1,7 @@
+{
+  "name": "agenda-contactos-php",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Agenda académica PHP y MySQL. Node es opcional y solo sirve para la vista previa.",
+  "scripts": {"dev": "node scripts/dev.mjs"}
+}
