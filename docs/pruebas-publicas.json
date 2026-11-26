@@ -1,0 +1,211 @@
+{
+  "fecha_utc": "2026-11-26T00:16:43Z",
+  "duracion_segundos": 19.13,
+  "total": 50,
+  "correctas": 50,
+  "pruebas": [
+    {
+      "prueba": "Acceso privado sin sesión redirige al inicio de sesión",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Cookie de sesión HttpOnly y SameSite",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Cookie Secure en HTTPS",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Registro rechaza solicitudes sin token CSRF",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Registro válido crea la cuenta",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Se rechazan correos duplicados",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Credenciales incorrectas no inician sesión",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Inicio de sesión válido muestra el panel personal",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "La sesión autenticada conserva una cookie",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Crear contacto con categoría y favorito",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Las cinco categorías requeridas están disponibles",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "La creación persiste registros en la base de datos",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Búsqueda por nombre",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Búsqueda por correo",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Búsqueda por ciudad",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Búsqueda general combina nombre correo y ciudad",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Ordenamiento nombre_asc",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Ordenamiento nombre_desc",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Ordenamiento ciudad_asc",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Ordenamiento ciudad_desc",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Ordenamiento fecha_desc",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Ordenamiento fecha_asc",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Filtro de favoritos",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Filtro por categoría",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Búsqueda categoría y favoritos funcionan combinados",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Activar favorito desde el listado",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Desactivar favorito desde el listado",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Validación del servidor impide correo y categoría inválidos",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Edición de un contacto propio",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "La búsqueda resiste entrada de inyección SQL",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "El porcentaje se busca como texto literal",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "El ordenamiento admite solo columnas de la lista permitida",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Una segunda cuenta no ve los contactos de la primera",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "No se puede abrir la edición de un contacto ajeno cambiando la URL",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "No se puede abrir la confirmación de borrado de un contacto ajeno",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Acción favorito rechaza un contacto ajeno",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Acción eliminar rechaza un contacto ajeno",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "El POST manipulado no modifica contactos ajenos",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "El borrado exige un token CSRF válido",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "La pantalla de confirmación no borra por GET",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "La confirmación POST elimina el contacto propio",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Se escapa HTML en la salida para impedir XSS almacenado",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Carga opcional de ocho contactos ficticios por cuenta",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "La carga de ejemplos no duplica contactos",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Paginación sin registros repetidos entre páginas",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Acceso web bloqueado a config/config.php",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Acceso web bloqueado a database/agenda_contactos.sql",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Acceso web bloqueado a app/helpers.php",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Acceso web bloqueado a tests/integration.py",
+      "resultado": "correcto"
+    },
+    {
+      "prueba": "Cerrar sesión revoca el acceso a las páginas privadas",
+      "resultado": "correcto"
+    }
+  ],
+  "base_url": "https://agenda-web-production-03f14b30.up.railway.app/",
+  "hosting": "Railway: PHP 8.3 Apache y MySQL 8 con volumen persistente",
+  "deployment_id": "6263d54d-6f28-4a38-8b6d-03151d42cac8"
+}

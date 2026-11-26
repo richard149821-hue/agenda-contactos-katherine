@@ -1,0 +1,26 @@
+ACTIVIDAD APEB1 - DESPLIEGUE Y MEJORAS DE UNA APLICACIÓN WEB
+Estudiante: Katherine Ximena Morocho Guanuche
+Usuario EVA: kxmorocho
+Asignatura: Desarrollo Web DSOF_3042
+Docente: Diana Alexandra Torres Guarnizo
+
+URL DEL SISTEMA:
+https://agenda-web-production-03f14b30.up.railway.app/
+
+REPOSITORIO GITHUB:
+https://github.com/richard149821-hue/agenda-contactos-katherine
+
+SCRIPT SQL:
+database/agenda_contactos.sql dentro del repositorio y del proyecto ZIP.
+Se adjunta también Agenda_Katherine_Base_Datos.sql.
+
+MEJORAS IMPLEMENTADAS:
+Búsqueda por nombre, correo y ciudad; ordenamiento por nombre, ciudad y fecha; categorías; favoritos.
+
+PARA EVALUAR:
+Abrir la URL, crear una cuenta con datos de prueba, iniciar sesión y pulsar Cargar ejemplos.
+
+VERIFICACIÓN:
+50 de 50 comprobaciones HTTP correctas sobre el alojamiento público, el 25 de noviembre de 2026.
+
+El alojamiento utiliza los recursos gratuitos de Railway y está sujeto a sus límites de uso y créditos.
